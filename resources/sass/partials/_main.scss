@@ -1,0 +1,22 @@
+main{
+    // pagina Studenti
+    .schede-studenti{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 50px auto;
+    }
+
+    .card-deck{
+        .card{
+            border: none;
+        }
+        img{
+            width: 200px;
+        }
+
+        .card-title{
+            color: #5cd4c0;
+        }
+    }
+}

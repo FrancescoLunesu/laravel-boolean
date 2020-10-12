@@ -10899,3 +10899,32 @@ a.text-dark:focus {
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav a img.logo {
+  width: 150px;
+}
+
+main .schede-studenti {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 50px auto;
+}
+
+main .card-deck .card {
+  border: none;
+}
+
+main .card-deck img {
+  width: 200px;
+}
+
+main .card-deck .card-title {
+  color: #5cd4c0;
+}
+

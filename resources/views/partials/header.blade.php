@@ -1,9 +1,11 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+<nav class="navbar navbar-expand-lg navbar-light bg-light row">
+  <a class="navbar-brand col-6" href="#">
+      <img class="logo" src="https://www.boolean.careers/images/misc/logo.png" alt="Logo_Boolean">
+  </a>
+  {{-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    CIao<span class="navbar-toggler-icon"></span>
+  </button> --}}
+  <div class="collapse navbar-collapse col-6" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
         <a class="nav-link" href="{{ route('StaticPage.home')}}">Home <span class="sr-only">(current)</span></a>

@@ -8,18 +8,21 @@
     <title>@yield('titolo')</title>
 </head>
 <body>
+    <div class="container">
 
-    <header>
-        @include('partials/header')
-    </header>
+        <header>
+            @include('partials/header')
+        </header>
 
-    <main>
-        @yield('content')
-    </main>
+        <main>
+            @yield('content')
+        </main>
 
-    <footer>
-        @include('partials/footer')
-    </footer>
+        <footer>
+            @include('partials/footer')
+        </footer>
+
+    </div>
 
 </body>
 </html>
