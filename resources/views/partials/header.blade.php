@@ -7,14 +7,14 @@
   </button> --}}
   <div class="collapse navbar-collapse col-6" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="{{ route('StaticPage.home')}}">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item {{ (url()->current() == route('StaticPage.home')) ? 'active' : ''}}">
+        <a class="nav-link" href="{{route('StaticPage.home')}}">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
+      <li class="nav-item {{ (url()->current() == route('StaticPage.chisiamo')) ? 'active' : ''}}">
         <a class="nav-link" href="{{ route('StaticPage.chisiamo')}}">Chi Siamo</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="{{ route('Student.studenti') }}">Studenti</a>
+      <li class="nav-item {{ (url()->current() == route('Student.studenti')) ? 'active' : ''}}">
+        <a class="nav-link" href="{{route('Student.studenti')}}">Studenti</a>
       </li>
     </ul>
   </div>
