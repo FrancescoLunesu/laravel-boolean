@@ -26,11 +26,4 @@ class StudentController extends Controller
         return view('show', compact('student'));
     }
 
-    public function slug($slug){
-        foreach ($this->students as $student) {
-            if($student['slug'] == $slug){
-                return view('slug', compact('student'));
-            }
-        }
-    }
 }
