@@ -9,7 +9,6 @@
     <title>@yield('titolo')</title>
 </head>
 <body>
-    <div class="container">
 
         <header>
             @include('partials/header')
@@ -23,7 +22,6 @@
             @include('partials/footer')
         </footer>
 
-    </div>
 
 </body>
 </html>

@@ -10916,46 +10916,48 @@ nav div ul li a {
 main .section-one {
   width: 100%;
   margin: 100px auto;
-  display: flex;
-  justify-content: center;
 }
 
-main .section-one .jumbotron-boolean {
+main .section-one .container {
+  display: flex;
+}
+
+main .section-one .container .jumbotron-boolean {
   width: 50%;
   height: 100%;
 }
 
-main .section-one .jumbotron-boolean .jumbotron-title {
+main .section-one .container .jumbotron-boolean .jumbotron-title {
   margin: 50px 0;
 }
 
-main .section-one .jumbotron-boolean .jumbotron-title h2 {
+main .section-one .container .jumbotron-boolean .jumbotron-title h2 {
   font-size: 50px;
   color: #0cd977;
 }
 
-main .section-one .jumbotron-boolean .jumbotron-subtitle {
+main .section-one .container .jumbotron-boolean .jumbotron-subtitle {
   margin-bottom: 30px;
 }
 
-main .section-one .jumbotron-boolean .jumbotron-subtitle h4 {
+main .section-one .container .jumbotron-boolean .jumbotron-subtitle h4 {
   font-size: 30px;
 }
 
-main .section-one .jumbotron-boolean .jumbotron-body {
+main .section-one .container .jumbotron-boolean .jumbotron-body {
   margin-bottom: 50px;
 }
 
-main .section-one .jumbotron-boolean .jumbotron-body ul {
+main .section-one .container .jumbotron-boolean .jumbotron-body ul {
   list-style: none;
 }
 
-main .section-one .jumbotron-boolean .jumbotron-body ul li i {
+main .section-one .container .jumbotron-boolean .jumbotron-body ul li i {
   font-size: 20px;
   color: #0cd977;
 }
 
-main .section-one .jumbotron-boolean .jumbotron-button button {
+main .section-one .container .jumbotron-boolean .jumbotron-button button {
   width: 30%;
   border: 1px solid #0cd977;
   border-radius: 10px;
@@ -10964,9 +10966,74 @@ main .section-one .jumbotron-boolean .jumbotron-button button {
   color: #0cd977;
 }
 
-main .section-one .animated-logo {
+main .section-one .container .animated-logo {
   width: 50%;
   height: 100%;
+}
+
+main .section-two {
+  background-color: #001632;
+}
+
+main .section-two .container .section-two-title {
+  padding: 20px 0;
+}
+
+main .section-two .container .section-two-title h3 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #006cfa;
+}
+
+main .section-two .container .section-two-title .infographics {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  margin: 30px 0;
+}
+
+main .section-two .container .section-two-title .infographics .single-info img {
+  width: 100px;
+  margin: 10px 0;
+}
+
+main .section-two .container .section-two-title .infographics .single-info span {
+  font-size: 35px;
+  font-weight: bolder;
+  display: block;
+  margin: 10px 0;
+}
+
+main .section-two .container .section-two-title .infographics .single-info p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+main .section-two .container .section-two-title .infographics .single-info:first-child {
+  margin-right: 30px;
+}
+
+main .section-two .container .section-two-title .infographics .single-info:last-child {
+  margin-left: 30px;
+}
+
+main .studentspage-title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+main .studentspage-title h3 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #006cfa;
+}
+
+main .studentspage-title h5 {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #000;
 }
 
 main .schede-studenti {

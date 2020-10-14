@@ -4,54 +4,102 @@
         width: 100%;
         margin: 100px auto;
         // background-color: red;
-        display: flex;
-        justify-content: center;
 
-        .jumbotron-boolean{
-            width: 50%;
-            height: 100%;
-            .jumbotron-title{
-                margin: 50px 0;
-                h2{
-                    font-size: 50px;
-                    color: #0cd977;
+        .container{
+            display: flex;
+            .jumbotron-boolean{
+                width: 50%;
+                height: 100%;
+                .jumbotron-title{
+                    margin: 50px 0;
+                    h2{
+                        font-size: 50px;
+                        color: #0cd977;
+                    }
                 }
-            }
 
-            .jumbotron-subtitle{
-                margin-bottom: 30px;
-                h4{
-                    font-size: 30px;
+                .jumbotron-subtitle{
+                    margin-bottom: 30px;
+                    h4{
+                        font-size: 30px;
+                    }
                 }
-            }
 
-            .jumbotron-body{
-                margin-bottom: 50px;
-                ul{
-                    list-style: none;
-                    li{
-                        i{
-                            font-size: 20px;
-                            color: #0cd977;
+                .jumbotron-body{
+                    margin-bottom: 50px;
+                    ul{
+                        list-style: none;
+                        li{
+                            i{
+                                font-size: 20px;
+                                color: #0cd977;
+                            }
                         }
                     }
                 }
-            }
-            .jumbotron-button{
-                button{
-                    width: 30%;
-                    border: 1px solid #0cd977;
-                    border-radius: 10px;
-                    background-color: #fff;
-                    padding: 5px;
-                    color: #0cd977;
+                .jumbotron-button{
+                    button{
+                        width: 30%;
+                        border: 1px solid #0cd977;
+                        border-radius: 10px;
+                        background-color: #fff;
+                        padding: 5px;
+                        color: #0cd977;
+                    }
                 }
             }
-        }
 
-        .animated-logo{
-            width: 50%;
-            height: 100%;
+            .animated-logo{
+                width: 50%;
+                height: 100%;
+            }
+        }
+    }
+
+    .section-two{
+        // height: 450px;
+        background-color: #001632;
+
+        .container{
+            .section-two-title{
+                padding: 20px 0;
+                h3{
+                    font-size: 50px;
+                    font-weight: bolder;
+                    color: #006cfa;
+                }
+                .infographics{
+                    display: flex;
+                    justify-content: space-around;
+                    color:#fff;
+                    margin: 30px 0;
+                    .single-info{
+                        img{
+                            width: 100px;
+                            margin: 10px 0;
+                        }
+
+                        span{
+                            font-size: 35px;
+                            font-weight: bolder;
+                            display: block;
+                            margin: 10px 0;
+                        }
+
+                        p{
+                            font-size: 18px;
+                            margin: 10px 0;
+                        }
+                    }
+                    .single-info:first-child{
+                        margin-right: 30px;
+                    }
+
+                    .single-info:last-child{
+                        margin-left: 30px;
+                    }
+                }
+            }
         }
     }
 }

@@ -1,5 +1,22 @@
 main{
     // pagina Studenti
+    .studentspage-title{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 50px 0;
+        h3{
+            font-size: 50px;
+            font-weight: bolder;
+            color: #006cfa;
+        }
+        h5{
+            font-size: 25px;
+            font-weight: bolder;
+            color: #000;
+        }
+    }
+
     .schede-studenti{
         display: flex;
         justify-content: space-around;
