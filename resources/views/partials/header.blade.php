@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light row">
+<nav class="navbar navbar-expand-lg navbar-light row">
   <a class="navbar-brand col-6" href="#">
       <img class="logo" src="https://www.boolean.careers/images/misc/logo.png" alt="Logo_Boolean">
   </a>

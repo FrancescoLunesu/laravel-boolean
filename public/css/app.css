@@ -10909,11 +10909,76 @@ nav a img.logo {
   width: 150px;
 }
 
+nav div ul li a {
+  margin-left: 50px;
+}
+
+main .section-one {
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+  justify-content: center;
+}
+
+main .section-one .jumbotron-boolean {
+  width: 50%;
+  height: 100%;
+}
+
+main .section-one .jumbotron-boolean .jumbotron-title {
+  margin: 50px 0;
+}
+
+main .section-one .jumbotron-boolean .jumbotron-title h2 {
+  font-size: 50px;
+  color: #0cd977;
+}
+
+main .section-one .jumbotron-boolean .jumbotron-subtitle {
+  margin-bottom: 30px;
+}
+
+main .section-one .jumbotron-boolean .jumbotron-subtitle h4 {
+  font-size: 30px;
+}
+
+main .section-one .jumbotron-boolean .jumbotron-body {
+  margin-bottom: 50px;
+}
+
+main .section-one .jumbotron-boolean .jumbotron-body ul {
+  list-style: none;
+}
+
+main .section-one .jumbotron-boolean .jumbotron-body ul li i {
+  font-size: 20px;
+  color: #0cd977;
+}
+
+main .section-one .jumbotron-boolean .jumbotron-button button {
+  width: 30%;
+  border: 1px solid #0cd977;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 5px;
+  color: #0cd977;
+}
+
+main .section-one .animated-logo {
+  width: 50%;
+  height: 100%;
+}
+
 main .schede-studenti {
   display: flex;
   justify-content: space-around;
   width: 100%;
   margin: 50px auto;
+}
+
+main .card-deck {
+  width: 50%;
+  height: 30%;
 }
 
 main .card-deck .card {
